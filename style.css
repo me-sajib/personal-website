@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+    padding: 5px 0;
+}
+
+h2{
+    font-size: 25px;
+    padding: 5px 0;
+}
+p{
+    padding: 10px 0;
+}
+
+img{
+    width: 100%;
+}
+
+.top_banner{
+    background: url("images/header-bg.png") no-repeat left;
+    padding: 70px 0;
+    height: 550px;
+}
+.top_area{
+    padding-top: 150px;
+}
+.top_banner h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.half-width{
+    width: 40%;
+    margin-left: 2%;
+    padding-left: 5%;
+    float: left;
+}
+ p{
+    padding-bottom: 30px;
+    color: dimgray;
+}
+.name-highlight{
+    color: rgb(216, 23, 74);
+    font-weight: 700;
+}
+a{
+    padding: 10px 20px;
+    background: linear-gradient(45deg,rgb(211, 74, 111),rgb(216, 23, 74));
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.biography_area{
+    height: 700px;
+    padding: 100px 0;
+    background: url("images/biography-bg.png") no-repeat left;
+}
+.biography_area .biography_image{
+  
+}
+.biography_banner{
+    padding-top: 150px;
+}
+.biography_area h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.latest_work{
+    padding: 100px 0;
+    background: url("images/latest-work-bg.png") no-repeat center;
+    height: 400px;
+}
+.latest_work h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+.latest_work .three_banner{
+    width: 27%;
+    padding-left: 5%;
+    float: left;
+}
+footer{
+    background: url("images/footer-bg.png") no-repeat left;
+    padding: 50px 0;
+}
+footer .footer_text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+footer .footer_text h1{
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+footer .footer_text p{
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+}
+footer .footer_text .msg_btn{
+    background: linear-gradient(45deg,rgb(201, 114, 137),rgb(223, 61, 104));
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+footer .footer_text h4{
+    padding-bottom: 5px;
+    font-weight: 300;
+}
